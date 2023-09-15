@@ -1,0 +1,130 @@
+.flex-container {
+    display: flex;
+    background-color: white;
+}
+
+.flex-container>div {
+    background-color: #f1f1f1;
+    margin-left:380px;
+    margin-top: 40px;
+    margin-right: 0px;
+    padding: 10px;
+    font-size: 30px;
+}
+
+#container2 {
+    margin-right: 50px;
+    margin-top: 40px;
+    margin-left: 0px;
+    width: 380px;
+}
+
+.element {
+    padding-top: 10px; /* Padding atas */
+    padding-bottom: 0px; /* Padding bawah, dengan nilai yang sama dengan padding atas */
+    background-color: white;
+    font-size: 12px;
+    width: 100%;
+    padding-left: 0px;
+    padding-right: 0px;
+}
+
+.box{
+    width: 100%;
+    height: 100%;
+}
+
+.navbar{
+    float: left;
+    background-color:white;
+    width: 100%;
+}
+
+.navbar li{
+    float: left;
+    list-style: none;
+}
+
+.navbar li a{
+    color: grey;
+    text-decoration: none;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    display: block;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.navbar li a:hover{
+    background:white ;
+    color: rgb(7, 7, 7)
+}
+
+.center ul{
+    width: -miz-fit-content;
+    width: -webkit-fit-center;
+    width: fit-content;
+    margin: auto;
+}
+
+/* style.css */
+form {
+    max-width: 100%;
+    margin: 0 auto;
+}
+
+input[type="email"],
+input[type="text"],
+textarea {
+    width: 350px;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+
+input[type="submit"] {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+input[type="submit"]:hover {
+    background-color: #0056b3;
+}
+
+p {
+    align-items: center;
+    text-align: center;
+    font-size: 12px;
+}
+p1 {
+    color: grey;
+    border: none;
+    font-size: 12px;
+}
+
+/* style.css */
+.horizontal-line-with-text {
+    text-align: center; /* Pusatkan teks di dalam container */
+    margin: 20px 0; /* Berikan margin atas dan bawah pada container */
+}
+
+.horizontal-line-with-text hr {
+    border: none; /* Hapus border default dari elemen hr */
+    border-top: 1px solid grey; /* Tambahkan garis horizontal */
+    display: inline-block; /* Buat hr menjadi elemen inline */
+    width: 35%; /* Lebar garis horizontal */
+    vertical-align: middle; /* Pusatkan garis horizontal secara vertikal */
+    margin: 0 10px; /* Berikan margin kiri dan kanan antara garis dan teks */
+}
+
+.horizontal-line-with-text span {
+    font-weight: bold; /* Teks lebih tebal jika diinginkan */
+}
+
